@@ -14,8 +14,9 @@
             p.innerText = "Hello World";
             p.setAttribute("data-test-id", "test-p");
             root.appendChild(p);
+
             clearTimeout(handler);
-        }, 1000);
+        }, 1500);
     });
 
     root.appendChild(addButton);
